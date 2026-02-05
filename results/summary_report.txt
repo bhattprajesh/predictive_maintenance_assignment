@@ -1,0 +1,67 @@
+================================================================================
+PREDICTIVE MAINTENANCE ANALYSIS REPORT
+================================================================================
+
+REGRESSION MODEL PERFORMANCE
+--------------------------------------------------------------------------------
+Axis 1:
+  Slope: 0.652727
+  Intercept: 49.186364
+  R² Score: 0.9999
+  RMSE: 0.0245
+
+Axis 2:
+  Slope: 0.443818
+  Intercept: 44.790000
+  R² Score: 1.0000
+  RMSE: 0.0079
+
+Axis 3:
+  Slope: 0.534545
+  Intercept: 54.610909
+  R² Score: 1.0000
+  RMSE: 0.0041
+
+Axis 4:
+  Slope: 0.451909
+  Intercept: 51.325000
+  R² Score: 1.0000
+  RMSE: 0.0078
+
+Axis 5:
+  Slope: 0.458727
+  Intercept: 47.884545
+  R² Score: 1.0000
+  RMSE: 0.0059
+
+Axis 6:
+  Slope: 0.556273
+  Intercept: 52.111364
+  R² Score: 1.0000
+  RMSE: 0.0029
+
+Axis 7:
+  Slope: 0.470000
+  Intercept: 48.741818
+  R² Score: 1.0000
+  RMSE: 0.0083
+
+Axis 8:
+  Slope: 0.473727
+  Intercept: 50.441364
+  R² Score: 1.0000
+  RMSE: 0.0050
+
+Average R² Score: 1.0000
+
+DETECTION THRESHOLDS
+--------------------------------------------------------------------------------
+MinC (Alert): 0.0209 kWh
+MaxC (Error): 0.0326 kWh
+T (Time Window): 60.0 seconds
+
+ANOMALY DETECTION RESULTS
+--------------------------------------------------------------------------------
+No anomalies detected
+
+================================================================================

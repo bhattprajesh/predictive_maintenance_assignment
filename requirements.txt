@@ -1,0 +1,11 @@
+pandas==3.0.0
+numpy>=2.0.0               # 2.0+ has full 3.14 support
+matplotlib>=3.9.0          # or latest 3.10.x
+seaborn>=0.13.0            # updated for newer matplotlib
+scikit-learn>=1.6.0        # 1.6+ supports 3.14
+scipy>=1.14.0              # modern version with 3.14 wheels
+psycopg2-binary>=2.9.9     # safe update
+python-dotenv>=1.0.0       # fine as is
+jupyter>=1.0.0             # fine
+notebook>=7.0.3            # fine
+ipykernel>=6.25.0
