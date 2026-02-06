@@ -27,7 +27,7 @@ This project implements a real-time anomaly detection system for industrial robo
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/predictive-maintenance.git
+https://github.com/bhattprajesh/predictive_maintenance_assignment.git
 cd predictive-maintenance
 ```
 
