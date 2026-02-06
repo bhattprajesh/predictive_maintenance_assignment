@@ -21,13 +21,13 @@ This project implements a real-time anomaly detection system for industrial robo
 ## 🚀 Setup Instructions
 
 ### Prerequisites
-- Python 3.14.2
+- Python 3.11+
 - PostgreSQL database (Neon.tech account)
 - Git
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com//predictive-maintenance.git
+git clone https://github.com/yourusername/predictive-maintenance.git
 cd predictive-maintenance
 ```
 
@@ -38,20 +38,21 @@ pip install -r requirements.txt
 
 ### 3. Configure Database Connection
 Create a `.env` file in the project root:
-```env
+
 DB_HOST=ep-crimson-dawn-aic8uouh-pooler.c-4.us-east-1.aws.neon.tech
 DB_NAME=neondb
 DB_USER=neondb_owner
 DB_PASSWORD=npg_Gn7iMxZYo0sc
 DB_PORT=5432
-
 ```
 
+**Note:** Never commit `.env` file to GitHub. It's included in `.gitignore`.
 
 ### 4. Run the Analysis
 ```bash
 # Option 1: Run Jupyter Notebook
 jupyter notebook notebooks/predictive_maintenance.ipynb
+
 
 
 ---
@@ -174,10 +175,10 @@ if deviation >= MaxC:
 ![All Axes](results/regression_plots/all_axes_comparison.png)
 *Figure 3: Comparative view of regression performance across all 8 axes*
 
+### Dashboard
+![alert popup](results/alert_popup.png)
+![predictive dashboard](results/predictive_dashboard.png)
 ---
-
-
-
 
 ## 🔬 Methodology
 
@@ -268,6 +269,7 @@ T = 30      # Instead of 60
 # 2. Residuals are being calculated correctly
 # 3. Time window logic is working
 ```
+
 
 
 
