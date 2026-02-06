@@ -5,63 +5,73 @@ PREDICTIVE MAINTENANCE ANALYSIS REPORT
 REGRESSION MODEL PERFORMANCE
 --------------------------------------------------------------------------------
 Axis 1:
-  Slope: 0.652727
-  Intercept: 49.186364
-  R² Score: 0.9999
-  RMSE: 0.0245
+  Slope: -0.000000
+  Intercept: 0.730542
+  R² Score: 0.0000
+  RMSE: 2.1621
 
 Axis 2:
-  Slope: 0.443818
-  Intercept: 44.790000
-  R² Score: 1.0000
-  RMSE: 0.0079
+  Slope: 0.000002
+  Intercept: 3.523886
+  R² Score: 0.0001
+  RMSE: 6.8797
 
 Axis 3:
-  Slope: 0.534545
-  Intercept: 54.610909
-  R² Score: 1.0000
-  RMSE: 0.0041
+  Slope: -0.000001
+  Intercept: 2.733898
+  R² Score: 0.0000
+  RMSE: 5.1118
 
 Axis 4:
-  Slope: 0.451909
-  Intercept: 51.325000
-  R² Score: 1.0000
-  RMSE: 0.0078
+  Slope: 0.000000
+  Intercept: 0.604357
+  R² Score: 0.0000
+  RMSE: 1.5749
 
 Axis 5:
-  Slope: 0.458727
-  Intercept: 47.884545
-  R² Score: 1.0000
-  RMSE: 0.0059
+  Slope: 0.000000
+  Intercept: 0.951103
+  R² Score: 0.0000
+  RMSE: 2.1002
 
 Axis 6:
-  Slope: 0.556273
-  Intercept: 52.111364
-  R² Score: 1.0000
-  RMSE: 0.0029
+  Slope: 0.000000
+  Intercept: 0.580077
+  R² Score: 0.0000
+  RMSE: 1.8154
 
 Axis 7:
-  Slope: 0.470000
-  Intercept: 48.741818
-  R² Score: 1.0000
-  RMSE: 0.0083
+  Slope: 0.000001
+  Intercept: 0.847563
+  R² Score: 0.0000
+  RMSE: 2.1667
 
 Axis 8:
-  Slope: 0.473727
-  Intercept: 50.441364
-  R² Score: 1.0000
-  RMSE: 0.0050
+  Slope: 0.000000
+  Intercept: 0.098748
+  R² Score: 0.0000
+  RMSE: 0.4231
 
-Average R² Score: 1.0000
+Average R² Score: 0.0000
 
 DETECTION THRESHOLDS
 --------------------------------------------------------------------------------
-MinC (Alert): 0.0209 kWh
-MaxC (Error): 0.0326 kWh
+MinC (Alert): 6.8263 kWh
+MaxC (Error): 14.6453 kWh
 T (Time Window): 60.0 seconds
 
 ANOMALY DETECTION RESULTS
 --------------------------------------------------------------------------------
-No anomalies detected
+Total Anomalies: 46
+  Alerts: 33
+  Errors: 13
+
+Anomalies by Axis:
+  Axis 2: 17 alerts, 10 errors
+  Axis 3: 15 alerts, 3 errors
+  Axis 5: 1 alerts, 0 errors
+
+Average Alert Duration: 88.23 seconds
+Average Error Duration: 87.10 seconds
 
 ================================================================================
