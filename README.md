@@ -175,10 +175,7 @@ if deviation >= MaxC:
 ![All Axes](results/regression_plots/all_axes_comparison.png)
 *Figure 3: Comparative view of regression performance across all 8 axes*
 
-### Dashboard
-![alert popup](results/alert_popup.png)
-![predictive dashboard](results/predictive_dashboard.png)
----
+
 
 ## 🔬 Methodology
 
