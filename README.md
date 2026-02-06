@@ -21,7 +21,7 @@ This project implements a real-time anomaly detection system for industrial robo
 ## 🚀 Setup Instructions
 
 ### Prerequisites
-- Python 3.11+
+- Python 3.13.12
 - PostgreSQL database (Neon.tech account)
 - Git
 
@@ -50,7 +50,7 @@ DB_PORT=5432
 
 ### 4. Run the Analysis
 ```bash
-# Option 1: Run Jupyter Notebook
+# Option 1:Run Jupyter Notebook
 jupyter notebook notebooks/predictive_maintenance.ipynb
 
 
